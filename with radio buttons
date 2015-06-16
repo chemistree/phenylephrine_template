@@ -1,457 +1,263 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="generator" content=
-    "CoffeeCup HTML Editor (www.coffeecup.com)">
-    <meta name="created" content="Wed, 13 May 2015 01:38:25 GMT">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title></title>
-    <style type="text/css">
-<!--
-    body {
-      color:#000000;
-      background-color:#FFFFFF;
-    }
-    a  { color:#0000FF; }
-    a:visited { color:#800080; }
-    a:hover { color:#008000; }
-    a:active { color:#FF0000; }
-    -->
-    </style><!--[if IE]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <p>
-    <table align="center" border="1" cellpadding="1" cellspacing="0" style="width: 850px;">
-	  <tbody>
-		<tr>
-			<td> MCLP - <input name="input1" maxlength="4" size="4" type="text" placeholder="XXXX" /> - <input name="input2" maxlength="6" size="6" type="text" placeholder="XXXX"/></td>
-			<td><input name="input3" maxlength="25" size="35" type="text" placeholder="Product Name" /></td>
-			<td><input name="input4" maxlength="25" size="35" type="text" placeholder="Client ID" /></td>
-		</tr>
-		<tr>
-			<td><input name="input5" maxlength="25" size="35" type="text" placeholder="Test Description" /></td>
-			<td><input name="input6" maxlength="35" size="35" type="text" placeholder="Product Specifications" /></td>
-			<td> USP <input name="input7" maxlength="5" size="5" type="text" placeholder="38" value="38"  /> NF <input name="input8" maxlength="5" size="5" type="text" placeholder="33" value="33" </td>
-		</tr>
-	  </tbody>
-    </table>
-    </p>
-    <div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-	
-	<!-- Begin Materials Table -->
-    <table width="100%" border="0" cellpadding="2" cellspacing=
-    "0" style="background-color: #ffffff;">
-        <tr valign="top">
-          <td height="20" style=
-          "border-width : 0px solid black; width:33%">
-		  <p style=
-            " text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-		  <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-            <strong>Reagent</strong>
-			</span>
-			</p>
-          </td>
-          <td height="20" style=
-          "border-width : 0px solid black; width:33%">
-            <p style=
-            " text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              <strong>Manufacturer & Lot / System ID / RP #</strong></span>
-            </p>
-          </td>
-		  <td height="20" width="5" style=
-          "border-width : 0px solid black; width:1%">
-		  </td>
-          <td height="20" style=
-          "border-width : 0px solid black;width:33%">
-            <p style=
-            " text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              <strong>Expiry</strong></span>
-            </p>
-          </td>
-        </tr>
-        <tr valign="top">
-          <td height="17" style=
-          "border-width : 0px solid black;">
-            <p style=
-            " text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              Mobile Phase</span>,
-            </p>
-          </td>
-          <td height="17" style=
-          "border-width : 0px solid black; width:33%">
-            <input type="text" name="box1" value="" pattern="[0-3][0-9]-[A-Z][A-Za-z]{2}-[0-9]{2}"style="width:99%;">
-          </td>
-		  <td height="20" width="5" style=
-          "border-width : 0px solid black; width:1%">,
-		  </td>
-          <td height="17" style=
-          "border-width : 0px solid black; width:33%">
-            <input type="text" name="box2" value="" style="width:99%;">
-          </td>
-        </tr>
-        <tr valign="top">
-          <td style="border-width : 0px solid black; width:33%">
-            <p style=
-            " text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              Water,</span>
-            </p>
-          </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box3" value="" style="width:99%;">
-          </td>
-		  <td height="20" width="5" style=
-          "border-width : 0px solid black; width:1%">,
-		  </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box4" value="" style="width:99%;">
-          </td>
-        </tr>
-        <tr valign="top">
-          <td style="border-width : 0px solid black; width:33%">
-            <p style=
-            " text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              3 M phosphoric acid,</span>
-            </p>
-          </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box5" value="" style="width:99%;">
-          </td>
-		  <td height="20" width="5" style=
-          "border-width : 0px solid black; width:1%">,
-		  </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box6" value="" style="width:99%;">
-          </td>
-        </tr>
-        <tr valign="top">
-          <td style="border-width : 0px solid black; width:33%">
-            <p style=
-            " text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-            <span style=
-            " font-size: 10pt; font-family: &#39;Arial&#39;, &#39;Helvetica&#39;, sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-              Dilution solvent,</span>
-            </p>
-          </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box7" value="" style="width:99%;">
-          </td>
-		  <td height="20" width="5" style=
-          "border-width : 0px solid black; width:1%">,
-		  </td>
-          <td style="border-width : 0px solid black; width:33%">
-            <input type="text" name="box8" value="" style="width:99%;">
-          </td>
-        </tr>
-      </table>
-    </div>
-	<br>
-	
-    <div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
-
-    <table width="100%" border="0" cellpadding="2" cellspacing="2" style="border-width: 0px; background-color: #ffffff;">
-      <tr valign="top">
-        <td style="width:33%;"><p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-          Phenylephrine Hydrochloride,</span></p>
-        </td>
-        <td style="width:33%;"><input type="text" name="man1" value="" placeholder="Manufacturer & Lot" style="width:99%;">
-        </td>
-        <td style="width:1%;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
-        </td>
-        <td style="width:15%;"><input type="text" name="exp1" value="" placeholder="Expiry" style="width:99%;">
-        </td>
-        <td style="width:1%;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
-        </td>
-        <td style="width:15%;"><input type="text" name="apur_number" value="" placeholder="Purity" style="width:99%;">
-        </td>
-        <td style="width:1%;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">%</span></p>
-        </td>
-     </tr>
-     <tr valign="top">
-       <td><p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">
-         Epinephrine Bitartrate,</span></p>
-       </td>
-       <td><input type="text" name="man2" value="" placeholder="Manufacturer & Lot" style="width:99%;">
-       </td>
-       <td><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
-       </td>
-       <td style="width:15%;"><input type="text" name="exp1" value="" placeholder="Expiry" style="width:99%;">
-       </td>
-       <td style="width:1%;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
-       </td>
-       <td style="width:15%;"><input type="text" name="bpur_number" value="" placeholder="Purity" style="width:99%;">
-       </td>
-       <td style="width:1%;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">%</span></p>
-       </td>
-     </tr>
-   </table>
- </div>
-
-    <p>
-      System Suitability Solution Preparation - Dissolved
-      <input type="text" name="phenylephrinesss_number" size="10" value="0.0"> 
-	  
-	  <select name="units_1">
-        <option selected value="1">
-		mg
-        </option>
-        <option value="1000">
-        g
-        </option>
-      </select>
-	  
-	  Phenylephrine Hydrochloride and 
-	  
-	  <input type="text" name="epinephrinesss_number" size="10" value="0.0">
-      
-	  <select name="units_2">
-        <option selected value="1">
-          mg
-        </option>
-        <option value="1000">
-          g
-        </option>
-      </select>
-	  
-	  Epinephrine Bitartrate in       
-	  <input type="text" name="volume_water1" size="10" value="5"> 
-	  
-	  <select name="units_3">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	  of water, diluted
-      with Dilution solvent to      
-	  
-	  <input type="text" name="avalue_number" size="10" value="25.0"> 
-	  
-	  <select name="units_4">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	  , and mixed. Further
-      diluted 
-	  
-	  <input type="text" name="bvalue_number" size="10" value="5.0"> 
-	  
-	  <select name="units_5">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	   of the resulting solution with Dilution
-      solvent to       
-	  
-	  <input type="text" name="cvalue_number" size="10" value="25.0">
-	  
-	  <select name="units_6">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	  , and mixed for a concentration of&nbsp;
-	  
-	  <input maxlength="10" name="phenylephrinesssconc_formula" size="10" type="text" 
-	  value="(Math.trunc(10000*(0.00005+(#{phenylephrinesss_number}*#{units_1}*(#{apur_number}/100)/#{avalue_number}*#{units_4}*#{bvalue_number}*#{units_5}/#{cvalue_number}*#{units_6})))) / 10000" />
-	  mg Phenylephrine Hydrochloride / mL and
-	  		 &nbsp;
-	  <input maxlength="10" name="epinephrinesssconc_formula" size="10" type="text" 
-	  value="(Math.trunc(10000*(0.00005+(#{epinephrinesss_number}*#{units_2}*(#{bpur_number}/100)/#{avalue_number}*#{units_4}*#{bvalue_number}*#{units_5}/#{cvalue_number}*#{units_6})))) / 10000" />
-	  mg Epinephrine Bitartrate / mL.
-	  </p>
-    <p>
-	
-     Standard Preparation - Dissolved <input type="text" name="phenylephrine_number" size="10" value="0.0"> 
-	  
-	  <select name="units_7">
-        <option selected value="1">
-          mg
-        </option>
-        <option value="1000">
-          g
-        </option>
-      </select>
-	  
-	   Phenylephrine Hydrochloride in 
-	  <input type="text" name="resultingsoln3" size="10" value="10"> 
-	  
-	  <select name="units_8">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	   of water,
-      diluted with Dilution solvent to 
-	  
-	  <input type="text" name="dvalue_number" size="10" value="25.0">
-	  
-	  <select name="units_9">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	  , and mixed.
-      Further diluted
-	  
-	  <input type="text" name="evalue_number" size="10"
-      value="5.0">
-	  
-	  <select name="units_10">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  
-	  of the resulting solution with
-      Dilution solvent to 
-	  <input type="text" name="fvalue_number" size="10" value="25.0">
-	  
-	  <select name="units_11">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="1000">
-          L
-        </option>
-      </select>
-	  , and mixed for a concentration of &nbsp;
-	  
-	  <input maxlength="10" name="phenylephrineconc_formula" size="10" type="text" 
-	  value="(Math.trunc(10000*(0.00005+(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" />
-	  mg Phenylephrine Hydrochloride / mL.
-    </p>
-    <p>
-      Assay Preparation - <br />
-	  <input name="sample" type="radio" value="sample_dilute"/> Transferred <input type="text" name="samplevol_number" size="10" value="0.0"> 
-	  
-	  <select name="units_12">
-        <option selected value="1">
-          mL
-        </option>
-        <option value="0.001">
-          uL
-        </option>
-      </select>
-	  
-	  of sample to a
-	  <input type="text" name="hvalue_number" size="10" value="25">
-	  -mL volumetric flask.
-      Diluted with Dilution solvent to volume, and mixed.
-	<br />
-      <input name="sample" type="radio" value="sample_neat"/>The sample solution was injected neat.</p>
-	<p>
-	  Analysis - Injected <input type="text" name="gvalue_number" size="3" value="20"> 
-	  uL volumes of the prepared solutions, with assay preparation bracketed by standard preparations, onto suitable chromatographic system MCLP-HPLC-<input type="text" name="lcsystem" size="3" value="">
-	  equipped with column: <input type="text" name="columnspecs" size="40" placeholder="Manufacturer, Dimensions, Lot Number, etc."> and detector at 
-	  <input type="text" name="wavelength" size="3" value="280"> nm.  A flow rate of <input type="text" name="flowrate" size="3" value="1"> mL/min.
-	</p>
-	<p>
-	  Record retention times and peak areas attributed to Phenylephrine Hydrochloride in bracketing standards and assay preparations.
-	  <table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<thead>
-		<tr>
-			<th scope="row">Vial Position</th>
-			<th scope="row">Injection ID</th>
-			<th scope="col">Retention Time (min)</th>
-			<th scope="col">Peak Area</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row"><input name="vialpos1" size="5" type="text" /></th>
-			<th scope="row">STD Inj 1</th>
-			<td><input name="stdinj1ret" size="20" type="text" /></td>
-			<td><input name="stdinj1_number" size="20" type="text" /></td>
-		</tr>
-		<tr>
-			<th scope="row"><input name="vialpos2" size="5" type="text" /></th>
-			<th scope="row">Assay Inj</th>
-			<td><input name="assayret" size="20" type="text" /></td>
-			<td><input name="assayinj_number" size="20" type="text" /></td>
-		</tr>
-		<tr>
-			<th scope="row"><input name="vialpos3" size="5" type="text" /></th>
-			<th scope="row">STD Inj 2</th>
-			<td><input name="stdinj2ret" size="20" type="text" /></td>
-			<td><input name="stdinj2_number" size="20" type="text" /></td>
-		</tr>
-	</tbody>
+<meta charset="utf-8">
+<meta name="generator" content=
+   "CoffeeCup HTML Editor (www.coffeecup.com)">
+<meta name="created" content="Wed, 13 May 2015 01:38:25 GMT">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title></title>
+<style type="text/css">
+   <!--
+      body {
+        color:#000000;
+        background-color:#FFFFFF;
+      }
+      a  { color:#0000FF; }
+      a:visited { color:#800080; }
+      a:hover { color:#008000; }
+      a:active { color:#FF0000; }
+      -->
+</style>
+<script>
+   function whichformula(){
+   	var answer = "-99";
+       var radios = document.getElementsByName("sample");
+       var radio_value="";
+       for(var i = 0; i < radios.length; i++){
+          if(radios[i].checked){
+              radio_value = radios[i].value;
+          }
+       }
+   	if (radio_value=="sample_dilute") {
+     		answer = diluteconc_formula();
+       }
+      else{
+     	   answer = neatconc_formula();
+      }
+      document.getElementsByName("some_text_number")[0].value = answer;
+   };
+  function diluteconc_formula(){
+   		  //define formula here
+     return "1";
+  };
+  function neatconc_formula(){
+     //define formula here
+     return "0";
+  };
+</script><!--[if IE]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<p>&nbsp;</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" style="width: 850px;">
+   <tbody>
+      <tr>
+         <td>MCLP - <input maxlength="4" name="input1" placeholder="XXXX" size="4" type="text" /> - <input maxlength="6" name="input2" placeholder="XXXX" size="6" type="text" /></td>
+         <td><input maxlength="25" name="input3" placeholder="Product Name" size="35" type="text" /></td>
+         <td><input maxlength="25" name="input4" placeholder="Client ID" size="35" type="text" /></td>
+      </tr>
+      <tr>
+         <td><input maxlength="25" name="input5" placeholder="Test Description" size="35" type="text" /></td>
+         <td><input maxlength="35" name="input6" placeholder="Product Specifications" size="35" type="text" /></td>
+         <td>USP <input maxlength="5" name="input7" placeholder="38" size="5" type="text" value="38" /> NF <input maxlength="5" name="input8" placeholder="33" size="5" value="33" /></td>
+      </tr>
+   </tbody>
 </table>
-    <p>
-	The quantity, in mg, of Phenylephrine Hydrochloride in each mL of the sample:
-	
-		<script>
-		function whichformula(){
-		var answer = 0;
-		if document.getElementsByName("sample_dilute")[0].checked {
-  		 answer = diluteconc_formula();
-		 }
-		 else{
-  		  answer = neatconc_formula();
-		  }
-		  document.getElementsByName("some_text_number")[0].value = answer;
-		  };
-		  diluteconc_formula(){
-		  //define formula here
-		  return "1";
- 		  };
-		  neatconc_formula(){
-		  //define formula here
-		  return "0";
-		  };
-		  </script>
-	   
-	 <input maxlength="10" name="diluteconc_formula" size="10" type="text" 
-	  value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" />
-	
-	<input maxlength="10" name="neatconc_formula" size="10" type="text" 
-	  value="(Math.trunc(10000*(0.00005+(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" />
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
+   <!-- Begin Materials Table -->
+   <table border="0" cellpadding="2" cellspacing="0" style="background-color: #ffffff;" width="100%">
+      <tbody>
+         <tr valign="top">
+            <td height="20" style="border-width : 0px solid black; width:33%">
+               <p style=" text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><strong>Reagent</strong> </span></p>
+            </td>
+            <td height="20" style="border-width : 0px solid black; width:33%">
+               <p style=" text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><strong>Manufacturer &amp; Lot / System ID / RP #</strong></span></p>
+            </td>
+            <td height="20" style="border-width : 0px solid black; width:1%" width="5">&nbsp;</td>
+            <td height="20" style="border-width : 0px solid black;width:33%">
+               <p style=" text-align: center; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><strong>Expiry</strong></span></p>
+            </td>
+         </tr>
+         <tr valign="top">
+            <td height="17" style="border-width : 0px solid black;">
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Mobile Phase</span>,</p>
+            </td>
+            <td height="17" style="border-width : 0px solid black; width:33%"><input name="box1" pattern="[0-3][0-9]-[A-Z][A-Za-z]{2}-[0-9]{2}" style="width:99%;" type="text" value="" /></td>
+            <td height="20" style="border-width : 0px solid black; width:1%" width="5">,</td>
+            <td height="17" style="border-width : 0px solid black; width:33%"><input name="box2" style="width:99%;" type="text" value="" /></td>
+         </tr>
+         <tr valign="top">
+            <td style="border-width : 0px solid black; width:33%">
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Water,</span></p>
+            </td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box3" style="width:99%;" type="text" value="" /></td>
+            <td height="20" style="border-width : 0px solid black; width:1%" width="5">,</td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box4" style="width:99%;" type="text" value="" /></td>
+         </tr>
+         <tr valign="top">
+            <td style="border-width : 0px solid black; width:33%">
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">3 M phosphoric acid,</span></p>
+            </td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box5" style="width:99%;" type="text" value="" /></td>
+            <td height="20" style="border-width : 0px solid black; width:1%" width="5">,</td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box6" style="width:99%;" type="text" value="" /></td>
+         </tr>
+         <tr valign="top">
+            <td style="border-width : 0px solid black; width:33%">
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Dilution solvent,</span></p>
+            </td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box7" style="width:99%;" type="text" value="" /></td>
+            <td height="20" style="border-width : 0px solid black; width:1%" width="5">,</td>
+            <td style="border-width : 0px solid black; width:33%"><input name="box8" style="width:99%;" type="text" value="" /></td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+<p>&nbsp;</p>
+<div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
+   <table border="0" cellpadding="2" cellspacing="2" style="border-width: 0px; background-color: #ffffff;" width="100%">
+      <tbody>
+         <tr valign="top">
+            <td style="width:33%;">
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Phenylephrine Hydrochloride,</span></p>
+            </td>
+            <td style="width:33%;"><input name="man1" placeholder="Manufacturer &amp; Lot" style="width:99%;" type="text" value="" /></td>
+            <td style="width:1%;">
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
+            </td>
+            <td style="width:15%;"><input name="exp1" placeholder="Expiry" style="width:99%;" type="text" value="" /></td>
+            <td style="width:1%;">
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
+            </td>
+            <td style="width:15%;"><input name="apur_number" placeholder="Purity" style="width:99%;" type="text" value="" /></td>
+            <td style="width:1%;">
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">%</span></p>
+            </td>
+         </tr>
+         <tr valign="top">
+            <td>
+               <p style=" text-align: right; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Epinephrine Bitartrate,</span></p>
+            </td>
+            <td><input name="man2" placeholder="Manufacturer &amp; Lot" style="width:99%;" type="text" value="" /></td>
+            <td>
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
+            </td>
+            <td style="width:15%;"><input name="exp1" placeholder="Expiry" style="width:99%;" type="text" value="" /></td>
+            <td style="width:1%;">
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">,</span></p>
+            </td>
+            <td style="width:15%;"><input name="bpur_number" placeholder="Purity" style="width:99%;" type="text" value="" /></td>
+            <td style="width:1%;">
+               <p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">%</span></p>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+<p>&nbsp;</p>
+<p>
+   System Suitability Solution Preparation - Dissolved <input name="phenylephrinesss_number" size="10" type="text" value="0.0" /> 
+   <select name="units_1">
+      <option selected="selected" value="1">mg</option>
+      <option value="1000">g</option>
+   </select>
+   Phenylephrine Hydrochloride and <input name="epinephrinesss_number" size="10" type="text" value="0.0" /> 
+   <select name="units_2">
+      <option selected="selected" value="1">mg</option>
+      <option value="1000">g</option>
+   </select>
+   Epinephrine Bitartrate in <input name="volume_water1" size="10" type="text" value="5" /> 
+   <select name="units_3">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   of water, diluted with Dilution solvent to <input name="avalue_number" size="10" type="text" value="25.0" /> 
+   <select name="units_4">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   , and mixed. Further diluted <input name="bvalue_number" size="10" type="text" value="5.0" /> 
+   <select name="units_5">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   of the resulting solution with Dilution solvent to <input name="cvalue_number" size="10" type="text" value="25.0" /> 
+   <select name="units_6">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   , and mixed for a concentration of&nbsp; <input maxlength="10" name="phenylephrinesssconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{phenylephrinesss_number}*#{units_1}*(#{apur_number}/100)/#{avalue_number}*#{units_4}*#{bvalue_number}*#{units_5}/#{cvalue_number}*#{units_6})))) / 10000" /> mg Phenylephrine Hydrochloride / mL and &nbsp; <input maxlength="10" name="epinephrinesssconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{epinephrinesss_number}*#{units_2}*(#{bpur_number}/100)/#{avalue_number}*#{units_4}*#{bvalue_number}*#{units_5}/#{cvalue_number}*#{units_6})))) / 10000" /> mg Epinephrine Bitartrate / mL.
+</p>
+<p>
+   Standard Preparation - Dissolved <input name="phenylephrine_number" size="10" type="text" value="0.0" /> 
+   <select name="units_7">
+      <option selected="selected" value="1">mg</option>
+      <option value="1000">g</option>
+   </select>
+   Phenylephrine Hydrochloride in <input name="resultingsoln3" size="10" type="text" value="10" /> 
+   <select name="units_8">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   of water, diluted with Dilution solvent to <input name="dvalue_number" size="10" type="text" value="25.0" /> 
+   <select name="units_9">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   , and mixed. Further diluted <input name="evalue_number" size="10" type="text" value="5.0" /> 
+   <select name="units_10">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   of the resulting solution with Dilution solvent to <input name="fvalue_number" size="10" type="text" value="25.0" /> 
+   <select name="units_11">
+      <option selected="selected" value="1">mL</option>
+      <option value="1000">L</option>
+   </select>
+   , and mixed for a concentration of &nbsp; <input maxlength="10" name="phenylephrineconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> mg Phenylephrine Hydrochloride / mL.
+</p>
 
-	<p>
-	 <em><span style="color:#FF0000;">Ensure system suitability data and chromatography is attached or linked to notebook page prior to submission, and please link to any new reagent preparations.</span></em>
-    </p>
-  </body>
-</html>
+<p>
+   Assay Preparation -<br />
+   <input name="sample" onclick="whichformula();" type="radio" value="sample_dilute" /> Transferred <input name="samplevol_number" size="10" type="text" value="0.0" /> 
+   <select name="units_12">
+      <option selected="selected" value="1">mL</option>
+      <option value="0.001">uL</option>
+   </select>
+   of sample to a <input name="hvalue_number" size="10" type="text" value="25" /> -mL volumetric flask. Diluted with Dilution solvent to volume, and mixed.<br />
+   <input checked="checked" name="sample" onclick="whichformula();" type="radio" value="sample_neat" />The sample solution was injected neat.
+</p>
+
+<p>Analysis - Injected <input name="gvalue_number" size="3" type="text" value="20" /> uL volumes of the prepared solutions, with assay preparation bracketed by standard preparations, onto suitable chromatographic system MCLP-HPLC-<input name="lcsystem" size="3" type="text" value="" /> equipped with column: <input name="columnspecs" placeholder="Manufacturer, Dimensions, Lot Number, etc." size="40" type="text" /> and detector at <input name="wavelength" size="3" type="text" value="280" /> nm. A flow rate of <input name="flowrate" size="3" type="text" value="1" /> mL/min.</p>
+<p>Record retention times and peak areas attributed to Phenylephrine Hydrochloride in bracketing standards and assay preparations.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+   <thead>
+      <tr>
+         <th scope="row">Vial Position</th>
+         <th scope="row">Injection ID</th>
+         <th scope="col">Retention Time (min)</th>
+         <th scope="col">Peak Area</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th scope="row"><input name="vialpos1" size="5" type="text" /></th>
+         <th scope="row">STD Inj 1</th>
+         <td><input name="stdinj1ret" size="20" type="text" /></td>
+         <td><input name="stdinj1_number" size="20" type="text" /></td>
+      </tr>
+      <tr>
+         <th scope="row"><input name="vialpos2" size="5" type="text" /></th>
+         <th scope="row">Assay Inj</th>
+         <td><input name="assayret" size="20" type="text" /></td>
+         <td><input name="assayinj_number" size="20" type="text" /></td>
+      </tr>
+      <tr>
+         <th scope="row"><input name="vialpos3" size="5" type="text" /></th>
+         <th scope="row">STD Inj 2</th>
+         <td><input name="stdinj2ret" size="20" type="text" /></td>
+         <td><input name="stdinj2_number" size="20" type="text" /></td>
+      </tr>
+   </tbody>
+</table>
+<p>The quantity, in mg, of Phenylephrine Hydrochloride in each mL of the sample: <input maxlength="10" name="diluteconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> <input maxlength="10" name="neatconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /><input name="some_text_number" type="text" value="-1" /></p>
+<p><em><span style="color:#FF0000;">Ensure system suitability data and chromatography is attached or linked to notebook page prior to submission, and please link to any new reagent preparations.</span></em></p>
