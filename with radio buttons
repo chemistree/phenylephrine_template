@@ -21,12 +21,8 @@
    function whichformula(){
    	var answer = "-99";
        var radios = document.getElementsByName("sample");
-       var radio_value="";
-       for(var i = 0; i < radios.length; i++){
-          if(radios[i].checked){
-              radio_value = radios[i].value;
-          }
-       }
+       var radio_value=document.querySelector('input[name="sample"]:checked').value;
+       
    	if (radio_value=="sample_dilute") {
      		answer = diluteconc_formula();
        }
