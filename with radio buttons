@@ -18,7 +18,6 @@
    	var answer = "-99";
        var radios = document.getElementsByName("sample");
        var radio_value=document.querySelector('input[name="sample"]:checked').value;
-
    	if (radio_value=="sample_dilute") {
      		answer = diluteconc_formula();
        }
@@ -28,10 +27,14 @@
       document.getElementsByName("some_text_number")[0].value = answer;
    };
 
-function diluteconc_formula(){
+function area_ratio(){
    var assay_inj           = parseFloat(document.querySelector('[name="assayinj_number"]').value);
    var stdinj1             = parseFloat(document.querySelector('[name="stdinj1_number"]').value);
    var stdinj2             = parseFloat(document.querySelector('[name="stdinj2_number"]').value);
+   return ( assay_inj / ((stdinj1 + stdinj2) / 2.0 )); 
+}
+
+function diluteconc_formula(){
    var final_vol           = parseFloat(document.querySelector('[name="hvalue_number"]').value);
    var samplevol           = parseFloat(document.querySelector('[name="samplevol_number"]').value); 
    var samplevol_units     = parseFloat(document.querySelector('[name="units_12"]').value); 
@@ -46,8 +49,7 @@ function diluteconc_formula(){
    var final_dil_vol_units = parseFloat(document.querySelector('[name="units_11"]').value);
    var digits_to_round     = 4;
    
-   // all sorts of screwed up, fix your math.
-   var answer =   ( assay_inj / ((stdinj1 + stdinj2) / 2.0 )) *
+   var answer =   area_ratio() *
                   (
                     (( phenylephrine * phenylephrine_units) * ( apur / 100.0 ) * (evalue * evalue_units)) /
                     ((dil_vol * dil_vol_units) * (final_dil_vol * final_dil_vol_units))
@@ -59,8 +61,14 @@ function diluteconc_formula(){
 
   function neatconc_formula(){
      //define formula here
-     return "0";
+    // *(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" 
+     var std_conc_formula          = parseFloat(document.querySelector('[name="phenylephrineconc_formula"]').value);
+     var digits_to_round     = 4;
+     var answer = area_ratio() * std_conc_formula;
+
+     return answer.toFixed(digits_to_round);
   };
+
 </script><!--[if IE]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -220,6 +228,6 @@ function diluteconc_formula(){
 	</tbody>
 </table>
 
-<p>The quantity, in mg, of Phenylephrine Hydrochloride in each mL of the sample: <input maxlength="10" name="diluteconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> <input maxlength="10" name="neatconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> <input name="some_text_number" type="text" value="-1" /></p>
+<p>The quantity, in mg, of Phenylephrine Hydrochloride in each mL of the sample: <input maxlength="10" name="diluteconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{hvalue_number}/#{samplevol_number}*#{units_12})*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> <input maxlength="10" name="neatconc_formula" size="10" type="text" value="(Math.trunc(10000*(0.00005+(#{assayinj_number}/((#{stdinj1_number}+#{stdinj2_number})/2))*(#{phenylephrine_number}*#{units_7}*(#{apur_number}/100)/#{dvalue_number}*#{units_9}*#{evalue_number}*#{units_10}/#{fvalue_number}*#{units_11})))) / 10000" /> <input name="some_text_number" type="text" value="whichformula();" /></p>
 
 <p><em><span style="color:#FF0000;">Ensure system suitability data and chromatography is attached or linked to notebook page prior to submission, and please link to any new reagent preparations.</span></em></p>
